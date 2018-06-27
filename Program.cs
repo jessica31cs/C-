@@ -6,9 +6,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string name = "jess";
-            Console.WriteLine("hello");
-            Console.WriteLine("{0}", name);
             Console.ForegroundColor = ConsoleColor.Green;
 
             string appName = "Number Guesser";
