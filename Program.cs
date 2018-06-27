@@ -41,7 +41,7 @@ namespace ConsoleApp1
             if (tries < 5)
                 Console.WriteLine("Yay, you guessed the number in {0} tries", tries);
             else
-                Console.WriteLine("ha loser! You didn't guess the number. It was {0}", correctNum);
+                Console.WriteLine("You didn't guess the number. It was {0}", correctNum);
 
             Console.ReadKey();
         }
